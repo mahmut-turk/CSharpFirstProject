@@ -1,0 +1,36 @@
+﻿* text=auto
+*.cs text eol=crlf
+*.sln text eol=crlf
+
+# Tüm dosyalar için otomatik satır sonu yönetimi
+* text=auto
+
+# C# kaynak kod dosyaları
+*.cs text eol=crlf
+
+# Visual Studio Solution ve Project dosyaları
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.vcxproj text eol=crlf
+
+# XAML ve JSON dosyaları
+*.xaml text eol=crlf
+*.json text eol=lf
+
+# XML, config ve metin dosyaları
+*.xml text eol=lf
+*.config text eol=lf
+*.txt text eol=lf
+
+# Görseller, derlenmiş ve ikili dosyalar hariç (Git yönetmez)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.obj binary
+*.pdb binary
+*.bin binary
